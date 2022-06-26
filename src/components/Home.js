@@ -43,16 +43,27 @@ const Home = () => {
         </div>
         <div className={styles.para2}>
           <div className={styles.para2Text}>
-        <p className={styles.column}>
-              Vel eros donec ac odio tempor orci. Nunc lobortis mattis aliquam
-               faucibus purus in massa. Porttitor eget dolor morbi non arcu risus quis varius. Nulla malesuada
-               pellentesque elit eget gravida cum. Nibh tellus molestie nunc non blandit. Adipiscing elit duis
-               tristique sollicitudin nibh sit amet commodo nulla. Gravida rutrum quisque non tellus orci ac auctor
-                augue. Lectus quam id leo in vitae turpis. Ac auctor augue mauris augue neque gravida.
+            <div className={styles.column}>
+            <h4>
+              Vel eros donec ac odio tempor orci.
+            </h4>
+              <ul>
+                <li>Nunc lobortis mattis aliquam</li>
+                <li>faucibus purus in massa. Porttitor eget dolor morbi non arcu risus quis varius.</li>
+                <li> Nulla malesuad pellentesque elit eget gravida cum. Nibh tellus molestie nunc non blandi</li>
+                <li> Adipiscing elit dui tristique sollicitudin nibh sit amet commodo nulla. Gravida rutrum </li>
+                <li> quisque non tellus orci ac auctor augue. </li>
+              </ul>
+                <p>
+                Lectus quam id leo in vitae turpis. Ac auctor augue mauris augue neque gravida.
                 Proin mattis efficitur sollicitudin. Nulla facilisi. Praesent rhoncus lorem efficitur, porta purus
                 sit amet, lacinia augue. Fusce nunc neque, semper tempor purus vel, elementum cursus augue. Integer
                 quis lorem sed massa scelerisque pulvinar vel eget enim. Donec viverra ultricies diam ut malesuada.
-                Nulla vulputate dapibus nibh, at laoreet tortor ultrices eu. Mauris mattis aliquam ligula sit amet
+                Nulla vulputate dapibus nibh, at laoreet tortor ultrices eu. 
+                
+                <br /> <br />
+                
+                Mauris mattis aliquam ligula sit amet
                 accumsan. Donec ornare placerat bibendum. Integer lacinia eros id velit molestie, nec convallis lacus
                  posuere. Integer placerat et enim sit amet lacinia. Proin et feugiat sem. In egestas lacinia interdum.
                  Phasellus nec nisi sit amet metus lacinia consequat vitae ac diam. Sed velit tortor, sagittis a mi vitae,
@@ -61,10 +72,13 @@ const Home = () => {
                   placerat ornare.Donec tincidunt pharetra turpis. Sed lobortis lacus sed luctus dapibus. Nam lacus mi,
 
                   </p>
-                  <p className={styles.column}>suscipit vitae massa a, mattis pretium ligula.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus varius eu elit quis cursus. Nunc non tristique purus. Maecenas aliquam lectus vel lacus pulvinar,
-                   eget mollis nibh imperdiet. Curabitur vestibulum a lectus non semper. Praesent semper metus non magna
-                   fringilla mattis. Curabitur cursus eu turpis sed eleifend. Nullam at congue enim. Praesent efficitur
+              </div>
+              <div className={styles.column}>
+                  <p >
+                    suscipit vitae massa a, mattis pretium ligula.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Phasellus varius eu elit quis cursus. Nunc non tristique purus. Maecenas aliquam lectus vel lacus pulvinar,
+                    eget mollis nibh imperdiet. Curabitur vestibulum a lectus non semper. Praesent semper metus non magna
+                    fringilla mattis. Curabitur cursus eu turpis sed eleifend. Nullam at congue enim. Praesent efficitur
                    urna at nunc porta congue. Fusce fermentum ante mauris, vel fringilla tellus faucibus eget. Curabitur
                    cursus, sapien at aliquam cursus, est tellus rutrum sem, et congue nunc nibh eu risus. Ut eget tempor
                    sem, at condimentum justo. Donec semper ligula lorem, non ornare nisl lacinia ut. In hac habitasse platea
@@ -78,6 +92,7 @@ const Home = () => {
                        a odio consequat dictum. Sed hendrerit consectetur efficitur. Integer sit amet faucibus risus, ac ornare leo.
 
                            </p>
+                           </div>
 
         </div>
         </div>

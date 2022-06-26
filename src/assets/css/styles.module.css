@@ -59,9 +59,9 @@ body,html{
     font-size: 1.2vw;
   }
   .column {
-    width:40%;
+    width:50%;
     float:left;
-    margin-right:20vw;
+    margin-right:2vw;
   }
   
   .stockImage {
@@ -105,11 +105,11 @@ body,html{
     background-color: rgb(229, 197, 220);
   }
   .para2Text {
-    margin-bottom:3vw;
     margin-left: 3vw;
     margin-top: 5vw;
     margin-bottom: 5vw;
     display:flex;
+    text-align: left;
   }
 
   .aboutUsText {
